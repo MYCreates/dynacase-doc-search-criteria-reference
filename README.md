@@ -1,4 +1,4 @@
-dynacase-doc-search-criteria-reference
-======================================
+# Dynacase search criteria UI reference
 
-Dynacase search criteria UI reference manual
+*Code:*
+[Dynacase search criteria UI](https://github.com/Anakeen/dynacase-search-criteria-UI.git)
