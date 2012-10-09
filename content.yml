@@ -1,0 +1,12 @@
+book:
+    title: "Dynacase Search Criteria 1.0 reference manual"
+    edition: "1"
+    chapters: 
+        - number:   "1"
+          content:  "introduction.md"
+        - number:   "2"
+          content:  "mode-emploi.md" 
+        - number:   "3"
+          content:  "integration.md" 
+        - number:   "4"
+          content:  "test.md" 
