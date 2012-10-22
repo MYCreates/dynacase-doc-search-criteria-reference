@@ -1,6 +1,7 @@
 book:
     title: "Guide d'intégration"
     module: "Search Criteria UI"
+    githubsrc: "git@github.com:CircleCode/dynacase-doc-search-criteria-reference.git"
     version: "1.0"
     edition: "1"
     chapters: 
