@@ -1,6 +1,6 @@
-# Mode d'emploi {#search-criteria-ref:7f3a7070-00a5-4144-bf3c-1cc962e3abdf}
+# Mode d'emploi {#search-criteria-integration:7f3a7070-00a5-4144-bf3c-1cc962e3abdf}
 
-## Dépendances {#search-criteria-ref:14e6e4bb-da9e-4371-b025-2fbbad71de79}
+## Dépendances {#search-criteria-integration:14e6e4bb-da9e-4371-b025-2fbbad71de79}
 
 L'intégration du plugin requiert l'ajout dans la page web des composants suivants :
 
@@ -16,11 +16,11 @@ Les adresses des éléments sont données à titre indicatif et sont valable dan
 
 *note:* Dans la version finale du produit les dépendances à criteria seront fournies dans un seul fichier js.
 
-## Droits {#search-criteria-ref:ae5c109a-d179-497c-a69c-980469b3b126}
+## Droits {#search-criteria-integration:ae5c109a-d179-497c-a69c-980469b3b126}
 
 Les utilisateurs devant avoir accès à Search Criteria et ses actions associées doivent avoir l'ACL : *BASIC* de l'application *SEARCH_CRITERIA_UI*.
 
-## Initialisation {#search-criteria-ref:15ee5449-0a1a-4648-861b-1df7a8e564de}
+## Initialisation {#search-criteria-integration:15ee5449-0a1a-4648-861b-1df7a8e564de}
 
 Idéalement l'initialisation du plugin doit avoir lieu sur l'évènement *ready* de la page en cours pour permettre à la DOM et aux dépendances d'être chargées.
 
@@ -88,7 +88,7 @@ Exemple d'initialisation des criterias en utilisant une table pour les présente
         
     </html>
 
-### Options de configuration {#search-criteria-ref:baf5d0e6-52a6-4ce5-8517-20dc5b20ac91}
+### Options de configuration {#search-criteria-integration:baf5d0e6-52a6-4ce5-8517-20dc5b20ac91}
 
 Les éléments en gras sont obligatoires.
 
@@ -114,7 +114,7 @@ postDefaultInsertRender
 *note :* aucune option ne peut être modifiée après la création des critères.
 
 
-#### Détail de la configuration : {#search-criteria-ref:837ff99a-8b93-4f3e-88e7-e451e1ce6917}
+#### Détail de la configuration : {#search-criteria-integration:837ff99a-8b93-4f3e-88e7-e451e1ce6917}
 
 criteriasDef
 :   cet objet de configuration donne les éléments permettant d'établir la configuration des critères.  
@@ -166,7 +166,7 @@ criteriasDef
 
 *note :* les id de type account et color ne sont pas encore pris en compte.
 
-## Méthodes associées {#search-criteria-ref:7453aefb-5f41-40fe-a49d-0383d7627224}
+## Méthodes associées {#search-criteria-integration:7453aefb-5f41-40fe-a49d-0383d7627224}
 
 Plusieurs méthodes sont associées à l'objet Search Criteria :
 
@@ -215,7 +215,7 @@ Ces méthodes sont appelées avec la syntaxe suivante :
 
 *note :* Suite à l'évolution de la docGrid les critères pourront lui être passée directement et ensuite être utilisés par la grid pour filtrer ses résultats.
 
-## Évènements associés {#search-criteria-ref:cc897a58-ebc1-4eaa-a81c-a7b59ade13c4}
+## Évènements associés {#search-criteria-integration:cc897a58-ebc1-4eaa-a81c-a7b59ade13c4}
 
 Des évènements sont déclenchés à 2 niveaux :
 
@@ -223,7 +223,7 @@ Des évènements sont déclenchés à 2 niveaux :
 *   au niveau de chacun des critères
 
 
-###Événements de plus haut niveau {#search-criteria-ref:084efc03-5a6e-4ed4-bd17-29c3c6f47c91}
+###Événements de plus haut niveau {#search-criteria-integration:084efc03-5a6e-4ed4-bd17-29c3c6f47c91}
 
 error
 :   déclenché à chaque erreur détectée.  
@@ -245,7 +245,7 @@ Les évènements peuvent être écoutés de deux manières différentes :
     [javascript]
     $("#criterias").criterias({ error : function(e, ui) { console.log(ui);}};
 
-###Événements par critère {#search-criteria-ref:1007c56e-cc29-4b16-9924-96a1df843e0c}
+###Événements par critère {#search-criteria-integration:1007c56e-cc29-4b16-9924-96a1df843e0c}
 
 change
 :   déclenché lorsque la valeur du critère change.  
