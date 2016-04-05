@@ -1,4 +1,4 @@
-# Test {#search-criteria-ref:0c4e0da3-6c38-4e6b-8a06-0a178a447a15}
+# Test {#search-criteria-integration:0c4e0da3-6c38-4e6b-8a06-0a178a447a15}
 
 Le plugin criterias est fourni avec une application permettant de la tester sans faire l'ensemble de l'intégration.
 

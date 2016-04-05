@@ -1,9 +1,10 @@
 book:
     title: "Guide d'intégration"
     module: "Search Criteria UI"
-    githubsrc: "git@github.com:CircleCode/dynacase-doc-search-criteria-reference.git"
+    githubsrc: "https://github.com/Anakeen/dynacase-doc-search-criteria-reference"
     version: "1.0"
-    edition: "1"
+    edition: "2"
+    id_prefix: "search-criteria-integration"
     chapters: 
         - number:   "1"
           content:  "introduction.md"
